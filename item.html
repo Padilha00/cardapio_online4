@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Four House</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="logo.jpg" class="logo"><i class="bx bxs-home"></i>Four House</a>
+
+      <ul class="navlist">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="#about">Explore o Menu</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <a href="carrinho.html"><i class="bx bx-cart"></i></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <main class="detalhe-pedido">
+      <section class="item-principal" id="item-info">
+       
+      </section>
+
+      <section class="adicionais">
+        <h3>Adicionais</h3>
+        <form id="form-adicionais">
+          <label><input type="checkbox" name="adicional" value="Bacon" /> Bacon</label><br />
+          <label><input type="checkbox" name="adicional" value="Cheddar" /> Cheddar</label><br />
+          <label><input type="checkbox" name="adicional" value="Ovo" /> Ovo</label><br />
+          <label><input type="checkbox" name="adicional" value="Cebola" /> Cebola</label><br />
+          <label><input type="checkbox" name="adicional" value="Picles" /> Picles</label><br />
+        </form>
+      </section>
+
+      <section class="observacoes">
+        <h3>Observações</h3>
+        <textarea id="campo-observacoes" rows="4" placeholder="Escreva se quiser tirar algo..."></textarea>
+      </section>
+
+      <div class="container-btn">
+        <a href="#" class="button" id="btn-proximo">Adicionar</a>
+      </div>
+    </main>
+
+    <script src="js/item.js"></script>
+  </body>
+</html>
